@@ -3,7 +3,7 @@ import Evento from '../Evento';
 import Form from '../Form';
 
 function App() {
-  const name = "Aristiklever";
+  // const name = "Aristiklever";
 
   return (
     <div className="App">
