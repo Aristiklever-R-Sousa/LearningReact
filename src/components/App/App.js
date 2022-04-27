@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <h1>Testando Evento!</h1>
       <Evento number={1}/>
-      <Evento number={2}/>
+      {/* <Evento number={2}/> */}
       <Form />
     </div>
   );
