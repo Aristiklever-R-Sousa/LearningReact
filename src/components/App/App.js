@@ -1,18 +1,14 @@
+import OutraList from '../OutraList';
 import './App.css';
-import Evento from '../Evento';
-import Form from '../Form';
-import Condicional from '../Condicional';
 
 function App() {
-  // const name = "Aristiklever";
+  const list = ["Ari", "Mai", "Rose"];
 
   return (
     <div className="App">
-      <h1>Renderização Condicional</h1>
-      <Condicional />
-      {/* <Evento number={1}/> */}
-      {/* <Evento number={2}/> */}
-      {/* <Form /> */}
+      <h1>Renderização de Listas</h1>
+      <OutraList itens={list} />
+      <OutraList itens={[]} />
     </div>
   );
 }
