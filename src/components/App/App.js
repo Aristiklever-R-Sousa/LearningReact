@@ -1,18 +1,14 @@
-import { useState } from 'react';
-import Saudacao from '../stateLift/Saudacao';
-import SeuNome from '../stateLift/SeuNome';
+import Footer from '../layout/Footer';
+import Navbar from '../layout/Navbar';
 
-import './App.css';
 
 function App() {
-  const  [name, setName] = useState();
 
   return (
-    <div className="App">
-      <h1>State Lift</h1>
-      <SeuNome setName={setName} />
-      <Saudacao name={name} />
-    </div>
+    <>
+      <Navbar />
+      <Footer />
+    </>
   );
 }
 
